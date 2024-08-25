@@ -5,7 +5,7 @@ import pickle
 from pathlib import Path
 import streamlit_authenticator as stauth
 
-os.environ['GOOGLE_API_KEY'] = "AIzaSyCaJ3QMHYJSpPJYD6g8JtYuE95JpMrpJ2o"
+os.environ['GOOGLE_API_KEY'] = "Your-Api-Key"
 
 llm = ChatGoogleGenerativeAI(model="gemini-pro")
 
